@@ -6,7 +6,7 @@ This fork is created to fine tune the detr
 **Parameters information** 
 =======
 The main script, main.py, has a variety of parameters available that can be changed to suit your needs. The main ones we are interested in are already shown in finetune_detr.ipynb. However, everything is up to you. For example, you could change the backbone model by simply changing the url that fetches the checkpoint and change the constructor's backbone using the --backbone argument to match. You could completely skip the finetuning bit and retrain a DETR model from scratch by simply setting pretrained = False in the "Load a model" block.
-=======
+
 **DE⫶TR**: End-to-End Object Detection with Transformers
 ========
 
